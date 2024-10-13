@@ -1,0 +1,213 @@
+.container {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 10px 0;
+  background-color: black;
+  z-index: 2;
+  .Menu_class {
+    display: none;
+  }
+  .content {
+    margin: 0 auto;
+    max-width: 1280px;
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    .name {
+      display: inline;
+      & {
+        font-size: 20px;
+        color: white;
+      }
+      span {
+        color: rgb(138, 132, 132);
+        filter: brightness(1.5);
+      }
+    }
+    .menu {
+      max-width: 100%;
+      min-width: 10px;
+      height: 25px;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      .contIn {
+        width: 60px;
+        input {
+          display: none;
+        }
+        input:checked + .button {
+          background-color: #e0e7f1;
+        }
+        input:checked + .button:before {
+          transform: translateX(30px);
+          transition: 0.3s ease;
+        }
+        .button {
+          display: inline-block;
+          background-color: gray;
+          width: 60px;
+          height: 30px;
+          border-radius: 200px;
+          cursor: pointer;
+          position: relative;
+          &::before {
+            position: absolute;
+            content: '';
+            background-color: black;
+            width: 20px;
+            height: 20px;
+            border-radius: 200px;
+            margin: 5px;
+            transition: 0.3s ease;
+          }
+        }
+      }
+      .nav {
+        width: 100%;
+
+        ul {
+          display: flex;
+          gap: 20px;
+          align-items: center;
+
+          li {
+            color: white;
+            position: relative;
+            padding-bottom: 5px;
+            cursor: pointer;
+
+            &.active {
+              color: white;
+
+              &::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 3px;
+                background-color: rgb(138, 132, 132);
+                transform: scaleX(1);
+                transform-origin: bottom left;
+                transition: transform 0.4s ease;
+              }
+            }
+
+            &:not(.active)::after {
+              content: '';
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              width: 100%;
+              background-color: rgb(138, 132, 132);
+              transform: scaleX(0);
+              transform-origin: bottom right;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .container {
+    .content {
+      justify-content: space-between;
+      padding: 0px 20px;
+      .menu {
+        flex-direction: row-reverse;
+        .nav {
+          display: none;
+        }
+      }
+      .navburger {
+        display: flex;
+        height: 25px;
+        width: 3em;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        cursor: pointer;
+        .burgerBarUn__Clicked {
+          width: 40px;
+          height: 3px;
+          background-color: rgba(255, 255, 255, 0.64);
+        }
+        .burgerBar__Clicked {
+          width: 40px;
+          height: 3px;
+          background-color: rgb(255, 255, 255);
+          transition: 0.3s ease;
+        }
+      }
+      .Menu_class {
+        position: absolute;
+        right: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+        backdrop-filter: blur(10px); /* Эффект размытия */
+        -webkit-backdrop-filter: blur(10px); /* Для Safari */
+        top: 50px;
+        width: 100%;
+        transition: background-color 0.3s ease;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        z-index: 1;
+        ul {
+          padding: 15px 0;
+          display: flex;
+          justify-content: space-evenly;
+          gap: 20px;
+          align-items: center;
+
+          li {
+            color: white;
+            position: relative;
+            padding-bottom: 5px;
+            cursor: pointer;
+
+            &.active {
+              color: white;
+
+              &::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 3px;
+                background-color: rgb(138, 132, 132);
+                transform: scaleX(1);
+                transform-origin: bottom left;
+                transition: transform 0.4s ease;
+              }
+            }
+
+            &:not(.active)::after {
+              content: '';
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              width: 100%;
+              background-color: rgb(138, 132, 132);
+              transform: scaleX(0);
+              transform-origin: bottom right;
+            }
+          }
+        }
+      }
+      .MenuVisible {
+        display: block;
+      }
+      .MenuHidden {
+        display: none;
+      }
+    }
+  }
+}

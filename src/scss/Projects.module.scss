@@ -1,0 +1,455 @@
+:root {
+  /* Background Colors */
+  --background-dark: #202020;
+  --background-light: #e0e7f1;
+  --background-lightBox: white;
+  --background-darkBox: gray;
+  --background-lightGray: gray;
+  --background-lightBoxpr: #708090;
+  --background-darkBoxpr: #21242a;
+
+  /* Text Colors */
+  --color-dark: black;
+  --color-light: white;
+}
+
+[data-theme='dark'] {
+  --color: var(--color-light);
+
+  --backgroundPR: var(--background-darkBoxpr);
+}
+
+[data-theme='light'] {
+  --color: var(--color-dark);
+
+  --backgroundPR: var(--background-lightBoxpr);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+
+  h1 {
+    font-weight: 600;
+    color: var(--color);
+    text-align: center;
+    padding: 15px 0;
+    font-size: 30px;
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+
+    .box {
+      width: 350px;
+      height: 500px;
+      background-color: var(--backgroundPR);
+
+      h2 {
+        font-weight: 600;
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+        font-size: 30px;
+      }
+
+      .boxJsx {
+        padding: 30px;
+        span {
+          letter-spacing: 0.3px;
+        }
+
+        .red {
+          color: red;
+
+          .white {
+            color: white;
+          }
+
+          .green {
+            color: #98c379;
+          }
+
+          .blue {
+            color: #abc7ff;
+          }
+
+          .Purple {
+            color: #c678dd;
+          }
+
+          .orange {
+            color: #d19a66;
+          }
+        }
+      }
+    }
+  }
+  .BoxHover {
+    img {
+      max-width: 300px;
+      height: 281px;
+      object-fit: contain;
+    }
+    .buttonBox {
+      margin-top: 20px;
+      display: flex;
+      gap: 20px;
+      button {
+        border-radius: 20px;
+        background-color: #f08080;
+        width: 70px;
+        height: 30px;
+        font-weight: 500;
+        font-size: 18px;
+        color: var(--color);
+        &:hover {
+          background-color: #cd5c5c;
+          color: rgba(255, 255, 255, 0.589);
+        }
+        &:active {
+          scale: 0.95;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1300px) {
+  .container {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+  .content {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+    .box {
+      width: 400px;
+      height: 500px;
+      background-color: var(--backgroundPR);
+
+      h2 {
+        font-weight: 600;
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+        font-size: 30px;
+      }
+
+      .boxJsx {
+        padding: 30px;
+        span {
+          letter-spacing: 0.3px;
+        }
+
+        .red {
+          color: red;
+
+          .white {
+            color: white;
+          }
+
+          .green {
+            color: #98c379;
+          }
+
+          .blue {
+            color: #abc7ff;
+          }
+
+          .Purple {
+            color: #c678dd;
+          }
+
+          .orange {
+            color: #d19a66;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1080px) {
+  .container {
+    max-width: 880px;
+    margin: 0 auto;
+
+    h1 {
+      font-weight: 600;
+      color: var(--color);
+      text-align: center;
+      padding: 15px 0;
+      font-size: 30px;
+    }
+
+    .content {
+      display: flex;
+      justify-content: space-between;
+
+      .box {
+        width: 350px;
+        height: 100%;
+        background-color: var(--backgroundPR);
+
+        h2 {
+          font-weight: 600;
+          color: white;
+          text-align: center;
+          padding: 15px 0;
+          font-size: 30px;
+        }
+
+        .boxJsx {
+          padding: 20px;
+          span {
+            letter-spacing: 0.3px;
+          }
+
+          .red {
+            color: red;
+
+            .white {
+              color: white;
+            }
+
+            .green {
+              color: #98c379;
+            }
+
+            .blue {
+              color: #abc7ff;
+            }
+
+            .Purple {
+              color: #c678dd;
+            }
+
+            .orange {
+              color: #d19a66;
+            }
+          }
+        }
+      }
+    }
+    .BoxHover {
+      img {
+        max-width: 320px;
+        height: 281px;
+        object-fit: contain;
+      }
+      .buttonBox {
+        margin-top: 0px;
+        display: flex;
+        gap: 20px;
+        button {
+          border-radius: 20px;
+          background-color: #f08080;
+          width: 70px;
+          height: 30px;
+          font-weight: 500;
+          font-size: 18px;
+          color: var(--color);
+          &:hover {
+            background-color: #cd5c5c;
+            color: rgba(255, 255, 255, 0.589);
+          }
+          &:active {
+            scale: 0.95;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 880px) {
+  .container {
+    max-width: 880px;
+    margin: 0 auto;
+
+    h1 {
+      font-weight: 600;
+      color: var(--color);
+      text-align: center;
+      padding: 15px 0;
+      font-size: 30px;
+    }
+
+    .content {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      flex-direction: column;
+
+      .box {
+        width: 450px;
+        height: 100%;
+        background-color: var(--backgroundPR);
+
+        h2 {
+          font-weight: 600;
+          color: white;
+          text-align: center;
+          padding: 15px 0;
+          font-size: 30px;
+        }
+
+        .boxJsx {
+          padding: 20px;
+          span {
+            letter-spacing: 0.3px;
+          }
+
+          .red {
+            color: red;
+
+            .white {
+              color: white;
+            }
+
+            .green {
+              color: #98c379;
+            }
+
+            .blue {
+              color: #abc7ff;
+            }
+
+            .Purple {
+              color: #c678dd;
+            }
+
+            .orange {
+              color: #d19a66;
+            }
+          }
+        }
+      }
+    }
+    .BoxHover {
+      margin: 0 auto;
+      img {
+        max-width: 390px;
+        height: 281px;
+        object-fit: contain;
+      }
+      .buttonBox {
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+        button {
+          border-radius: 20px;
+          background-color: #f08080;
+          width: 70px;
+          height: 30px;
+          font-weight: 500;
+          font-size: 18px;
+          color: var(--color);
+          &:hover {
+            background-color: #cd5c5c;
+            color: rgba(255, 255, 255, 0.589);
+          }
+          &:active {
+            scale: 0.95;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 465px) {
+  .container {
+    max-width: 880px;
+    margin: 0 auto;
+
+    h1 {
+      font-weight: 600;
+      color: var(--color);
+      text-align: center;
+      padding: 15px 0;
+      font-size: 30px;
+    }
+
+    .content {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      flex-direction: column;
+
+      .box {
+        width: 350px;
+        height: 100%;
+        background-color: var(--backgroundPR);
+
+        h2 {
+          font-weight: 600;
+          color: white;
+          text-align: center;
+          padding: 15px 0;
+          font-size: 30px;
+        }
+
+        .boxJsx {
+          padding: 20px;
+          span {
+            letter-spacing: 0.3px;
+          }
+
+          .red {
+            color: red;
+
+            .white {
+              color: white;
+            }
+
+            .green {
+              color: #98c379;
+            }
+
+            .blue {
+              color: #abc7ff;
+            }
+
+            .Purple {
+              color: #c678dd;
+            }
+
+            .orange {
+              color: #d19a66;
+            }
+          }
+        }
+      }
+    }
+    .BoxHover {
+      margin: 0 auto;
+      img {
+        max-width: 320px;
+        height: 281px;
+        object-fit: contain;
+      }
+      .buttonBox {
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+        button {
+          border-radius: 20px;
+          background-color: #f08080;
+          width: 70px;
+          height: 30px;
+          font-weight: 500;
+          font-size: 18px;
+          color: var(--color);
+          &:hover {
+            background-color: #cd5c5c;
+            color: rgba(255, 255, 255, 0.589);
+          }
+          &:active {
+            scale: 0.95;
+          }
+        }
+      }
+    }
+  }
+}
