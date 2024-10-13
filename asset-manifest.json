@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.921a503e.css",
+    "main.js": "/Portfolio/static/js/main.e90cb43a.js",
+    "static/media/Kino.png": "/Portfolio/static/media/Kino.f923fcb3b4c5f8ea8ea4.png",
+    "static/media/MyImg.png": "/Portfolio/static/media/MyImg.2265c980d8b278a39cd4.png",
+    "static/media/PetProject.png": "/Portfolio/static/media/PetProject.f2983211dbeef6953c6e.png",
+    "static/media/file-type-css-icon-1806x2048-r5fwjl3p.png": "/Portfolio/static/media/file-type-css-icon-1806x2048-r5fwjl3p.015d4e7819fe71e19c25.png",
+    "static/media/javascript-js-icon-2048x2048-nyxvtvk0.png": "/Portfolio/static/media/javascript-js-icon-2048x2048-nyxvtvk0.83f816a137ee2ef5f733.png",
+    "static/media/Sass_Logo_Color.svg.png": "/Portfolio/static/media/Sass_Logo_Color.svg.7c0cdb10500ac0ad717d.png",
+    "static/media/free-react-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-langugae-freebies-pack-logos-icons-1175110.webp": "/Portfolio/static/media/free-react-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-langugae-freebies-pack-logos-icons-1175110.53a9b5ddeab7a2f44244.webp",
+    "static/media/instagram.png": "/Portfolio/static/media/instagram.ac32ec0a111aeba03298.png",
+    "static/media/telegram.png": "/Portfolio/static/media/telegram.6d4fb402a1836d62584b.png",
+    "static/media/Ikona-html.png": "/Portfolio/static/media/Ikona-html.8b1ba2e3498083627a69.png",
+    "static/media/discord-logo.png": "/Portfolio/static/media/discord-logo.a8a5beaaaeffe70599b3.png",
+    "static/media/facebook.png": "/Portfolio/static/media/facebook.bfd1cfff9f9521198b26.png",
+    "index.html": "/Portfolio/index.html",
+    "main.921a503e.css.map": "/Portfolio/static/css/main.921a503e.css.map",
+    "main.e90cb43a.js.map": "/Portfolio/static/js/main.e90cb43a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.921a503e.css",
+    "static/js/main.e90cb43a.js"
+  ]
+}
