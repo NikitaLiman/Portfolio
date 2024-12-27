@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f217d7e2.css",
-    "main.js": "/Portfolio/static/js/main.6d046432.js",
+    "main.css": "/Portfolio/static/css/main.e16d616f.css",
+    "main.js": "/Portfolio/static/js/main.00cf35cd.js",
     "static/media/Kino.png": "/Portfolio/static/media/Kino.f923fcb3b4c5f8ea8ea4.png",
     "static/media/MyImg.png": "/Portfolio/static/media/MyImg.2265c980d8b278a39cd4.png",
+    "static/media/voltex.png": "/Portfolio/static/media/voltex.8845ea47e6a1d7e9677e.png",
     "static/media/PetProject.png": "/Portfolio/static/media/PetProject.f2983211dbeef6953c6e.png",
+    "static/media/Postgresql_elephant.svg.png": "/Portfolio/static/media/Postgresql_elephant.svg.519a271ad6537a824c0c.png",
     "static/media/file-type-css-icon-1806x2048-r5fwjl3p.png": "/Portfolio/static/media/file-type-css-icon-1806x2048-r5fwjl3p.015d4e7819fe71e19c25.png",
     "static/media/javascript-js-icon-2048x2048-nyxvtvk0.png": "/Portfolio/static/media/javascript-js-icon-2048x2048-nyxvtvk0.83f816a137ee2ef5f733.png",
     "static/media/Sass_Logo_Color.svg.png": "/Portfolio/static/media/Sass_Logo_Color.svg.7c0cdb10500ac0ad717d.png",
+    "static/media/nextjs-icon-2048x1234-pqycciiu.png": "/Portfolio/static/media/nextjs-icon-2048x1234-pqycciiu.37ce8fc7b8f8dd2ce994.png",
     "static/media/free-react-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-langugae-freebies-pack-logos-icons-1175110.webp": "/Portfolio/static/media/free-react-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-langugae-freebies-pack-logos-icons-1175110.53a9b5ddeab7a2f44244.webp",
     "static/media/instagram.png": "/Portfolio/static/media/instagram.ac32ec0a111aeba03298.png",
     "static/media/telegram.png": "/Portfolio/static/media/telegram.6d4fb402a1836d62584b.png",
@@ -15,11 +18,12 @@
     "static/media/discord-logo.png": "/Portfolio/static/media/discord-logo.a8a5beaaaeffe70599b3.png",
     "static/media/facebook.png": "/Portfolio/static/media/facebook.bfd1cfff9f9521198b26.png",
     "index.html": "/Portfolio/index.html",
-    "main.f217d7e2.css.map": "/Portfolio/static/css/main.f217d7e2.css.map",
-    "main.6d046432.js.map": "/Portfolio/static/js/main.6d046432.js.map"
+    "static/media/prisma-3.svg": "/Portfolio/static/media/prisma-3.671d86452eaaec143f2c67bfdd392314.svg",
+    "main.e16d616f.css.map": "/Portfolio/static/css/main.e16d616f.css.map",
+    "main.00cf35cd.js.map": "/Portfolio/static/js/main.00cf35cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.f217d7e2.css",
-    "static/js/main.6d046432.js"
+    "static/css/main.e16d616f.css",
+    "static/js/main.00cf35cd.js"
   ]
 }
